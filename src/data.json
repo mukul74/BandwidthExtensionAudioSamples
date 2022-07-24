@@ -5,26 +5,36 @@
         "filePaths": {
             "inputFile": "4k_8k/Input.wav",
             "outputFile": "4k_8k/Output.wav",
+            "variants_nopoly": {
+                "title": "NO_POLY",
+                "variants": [
+                    {
+                        "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD",
+                        "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE",
+                        "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
+                    }
+                ]
+            },
+            "variants_poly": {
+                "title": "POLY",
+                "variants": [
+                    {
+                        "title": "Generated_POLY_T_4k_8k_I_4k_8k_LSD",
+                        "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_POLY_T_4k_8k_I_4k_8k_WMSE",
+                        "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
+                    }
+                ]
+            },
             "variants": [
                 {
                     "title": "Generated_Base_T_4k_8k_I_4k_8k",
                     "filePath": "4k_8k/Generated_Base_T_4k_8k_I_4k_8k.wav"
-                },
-                {
-                    "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD",
-                    "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD.wav"
-                },
-                {
-                    "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE",
-                    "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_4k_8k_I_4k_8k_LSD",
-                    "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_LSD.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_4k_8k_I_4k_8k_WMSE",
-                    "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
                 },
                 {
                     "title": "Generated_SampleRNN_T_4k_8k_I_4k_8k",
@@ -39,42 +49,52 @@
         "filePaths": {
             "inputFile": "8k_16k/input_8k.wav",
             "outputFile": "8k_16k/target_16k.wav",
+            "variants_nopoly": {
+                "title": "NO_POLY",
+                "variants": [
+                    {
+                        "title": "Generated_NO_POLY_T_4k_8k_I_8k_16k_LSD",
+                        "filePath": "8k_16k/Generated_NO_POLY_T_4k_8k_I_8k_16k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_NO_POLY_T_4k_8k_I_8k_16k_WMSE",
+                        "filePath": "8k_16k/Generated_NO_POLY_T_4k_8k_I_8k_16k_WMSE.wav"
+                    },
+                    {
+                        "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD",
+                        "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE",
+                        "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
+                    }
+                ]
+            },
+            "variants_poly": {
+                "title": "POLY",
+                "variants": [
+                    {
+                        "title": "Generated_POLY_T_4k_8k_I_8k_16k_LSD",
+                        "filePath": "8k_16k/Generated_POLY_T_4k_8k_I_8k_16k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_POLY_T_4k_8k_I_8k_16k_WMSE",
+                        "filePath": "8k_16k/Generated_POLY_T_4k_8k_I_8k_16k_WMSE.wav"
+                    },
+                    {
+                        "title": "Generated_POLY_T_8k_16k_I_8k_16k_LSD",
+                        "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_POLY_T_8k_16k_I_8k_16k_WMSE",
+                        "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
+                    }
+                ]
+            },
             "variants": [
                 {
                     "title": "Generated_BASE_T_8k_16k_I_8k_16",
                     "filePath": "8k_16k/Generated_BASE_T_8k_16k_I_8k_16.wav"
-                },
-                {
-                    "title": "Generated_NO_POLY_T_4k_8k_I_8k_16k_LSD",
-                    "filePath": "8k_16k/Generated_NO_POLY_T_4k_8k_I_8k_16k_LSD.wav"
-                },
-                {
-                    "title": "Generated_NO_POLY_T_4k_8k_I_8k_16k_WMSE",
-                    "filePath": "8k_16k/Generated_NO_POLY_T_4k_8k_I_8k_16k_WMSE.wav"
-                },
-                {
-                    "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD",
-                    "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD.wav"
-                },
-                {
-                    "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE",
-                    "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_4k_8k_I_8k_16k_LSD",
-                    "filePath": "8k_16k/Generated_POLY_T_4k_8k_I_8k_16k_LSD.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_4k_8k_I_8k_16k_WMSE",
-                    "filePath": "8k_16k/Generated_POLY_T_4k_8k_I_8k_16k_WMSE.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_8k_16k_I_8k_16k_LSD",
-                    "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_LSD.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_8k_16k_I_8k_16k_WMSE",
-                    "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
                 }
             ]
         }
@@ -85,40 +105,49 @@
         "filePaths": {
             "inputFile": "16k_32k/Input.wav",
             "outputFile": "16k_32k/Target.wav",
-            "variants": [
-                {
-                    "title": "Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD",
-                    "filePath": "16k_32k/Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD.wav"
-                },
-                {
-                    "title": "Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE",
-                    "filePath": "16k_32k/Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE.wav"
-                },
-                {
-                    "title": "Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD",
-                    "filePath": "16k_32k/Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD.wav"
-                },
-                {
-                    "title": "Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE",
-                    "filePath": "16k_32k/Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_4k_8k_I_16k_32k_LSD",
-                    "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_LSD.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_4k_8k_I_16k_32k_WMSE",
-                    "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_WMSE.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_16k_32k_I_16k_32k_LSD",
-                    "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_LSD.wav"
-                },
-                {
-                    "title": "Generated_POLY_T_16k_32k_I_16k_32k_WMSE",
-                    "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
-                }
-            ]
+            "variants_nopoly": {
+                "title": "NO_POLY",
+                "variants": [
+                    {
+                        "title": "Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD",
+                        "filePath": "16k_32k/Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE",
+                        "filePath": "16k_32k/Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE.wav"
+                    },
+                    {
+                        "title": "Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD",
+                        "filePath": "16k_32k/Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE",
+                        "filePath": "16k_32k/Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
+                    }
+                ]
+            },
+            "variants_poly": {
+                "title": "POLY",
+                "variants": [
+                    {
+                        "title": "Generated_POLY_T_4k_8k_I_16k_32k_LSD",
+                        "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_POLY_T_4k_8k_I_16k_32k_WMSE",
+                        "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_WMSE.wav"
+                    },
+                    {
+                        "title": "Generated_POLY_T_16k_32k_I_16k_32k_LSD",
+                        "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_LSD.wav"
+                    },
+                    {
+                        "title": "Generated_POLY_T_16k_32k_I_16k_32k_WMSE",
+                        "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
+                    }
+                ]
+            },
+            "variants": []
         }
     }
 ]
