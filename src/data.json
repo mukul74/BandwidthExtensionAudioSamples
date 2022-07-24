@@ -27,8 +27,8 @@
                     "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
                 },
                 {
-                    "title": "Generated_POLY_T_4k_8k_I_4k_8k_LSD",
-                    "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                    "title": "Generated_SampleRNN_T_4k_8k_I_4k_8k",
+                    "filePath": "4k_8k/Generated_SampleRNN_T_4k_8k_I_4k_8k.wav"
                 }
             ]
         }
