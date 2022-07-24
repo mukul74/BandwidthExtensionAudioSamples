@@ -1,12 +1,11 @@
 const AudioItem = (props) => {
     const { filePath, title } = props;
-    return <div style={{ margin: "4rem 2rem" }}>
-        <div>
-            <h4 style={{fontSize: '16px', fontWeight: 'bold'}}>{title}</h4>
-        </div>
-
-
+    return <div style={{ margin: "4rem 1rem" }}>
         <div class="well well-lg">
+            <div style={{ maxWidth: '100%'}}>
+                <h4 style={{ fontSize: '15px', fontWeight: 'bold', maxWidth: '100%', wordBreak: 'break-all' }}>{title}</h4>
+            </div>
+
             <audio src={require(`../../media/${filePath}`)} controls style={{ width: "100%" }} />
         </div>
     </div>
