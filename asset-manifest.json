@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.js": "/BandwidthExtensionAudioSamples/static/js/main.ee343a5b.js",
+    "static/js/787.64e35d56.chunk.js": "/BandwidthExtensionAudioSamples/static/js/787.64e35d56.chunk.js",
+    "static/media/Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD.9f218261a0f6d4a5763d.wav",
+    "static/media/Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE.7f538e4334168ce71f9c.wav",
+    "static/media/Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE.c95baeb0fb44e9d3b1b4.wav",
+    "static/media/Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD.05758989b105b256eadd.wav",
+    "static/media/Generated_POLY_T_16k_32k_I_16k_32k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_16k_32k_I_16k_32k_LSD.2f9b5b561feb22f26556.wav",
+    "static/media/Generated_POLY_T_16k_32k_I_16k_32k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_16k_32k_I_16k_32k_WMSE.d41bc01d90294a63d51b.wav",
+    "static/media/Generated_POLY_T_4k_8k_I_16k_32k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_4k_8k_I_16k_32k_LSD.5241fcdae4b5277f4c10.wav",
+    "static/media/Generated_POLY_T_4k_8k_I_16k_32k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_4k_8k_I_16k_32k_WMSE.1d286d69e3556920c8c5.wav",
+    "static/media/Target.wav": "/BandwidthExtensionAudioSamples/static/media/Target.d3a8b54805dab5bf643c.wav",
+    "static/media/Generated_BASE_T_8k_16k_I_8k_16.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_BASE_T_8k_16k_I_8k_16.e35471c8d2e0a254b4d9.wav",
+    "static/media/Generated_NO_POLY_T_4k_8k_I_8k_16k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NO_POLY_T_4k_8k_I_8k_16k_LSD.b17cd09d8810d793347c.wav",
+    "static/media/Generated_NO_POLY_T_4k_8k_I_8k_16k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NO_POLY_T_4k_8k_I_8k_16k_WMSE.109d9f7c3ea626b6b053.wav",
+    "static/media/Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD.f373fa34006148a7b9d8.wav",
+    "static/media/Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE.1b851d16e62e30eb212f.wav",
+    "static/media/Generated_POLY_T_4k_8k_I_8k_16k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_4k_8k_I_8k_16k_LSD.3497a88c1672f9c900d3.wav",
+    "static/media/Generated_POLY_T_4k_8k_I_8k_16k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_4k_8k_I_8k_16k_WMSE.38373bfcbec2068e050b.wav",
+    "static/media/Generated_POLY_T_8k_16k_I_8k_16k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_8k_16k_I_8k_16k_LSD.2fa109bd951069122b47.wav",
+    "static/media/Generated_POLY_T_8k_16k_I_8k_16k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_8k_16k_I_8k_16k_WMSE.1f755b431f96667b2188.wav",
+    "static/media/Input.wav": "/BandwidthExtensionAudioSamples/static/media/Input.bc8976ffdbd08143a501.wav",
+    "static/media/target_16k.wav": "/BandwidthExtensionAudioSamples/static/media/target_16k.c037fcc35a512f01cc87.wav",
+    "static/media/Generated_Base_T_4k_8k_I_4k_8k.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_Base_T_4k_8k_I_4k_8k.2b106d69bd03e7487e8f.wav",
+    "static/media/Output.wav": "/BandwidthExtensionAudioSamples/static/media/Output.87c2a7775db761c83dfa.wav",
+    "static/media/input_8k.wav": "/BandwidthExtensionAudioSamples/static/media/input_8k.87c2a7775db761c83dfa.wav",
+    "static/media/Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD.37420fcd1b00748d7237.wav",
+    "static/media/Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE.20548f4327e9922bb703.wav",
+    "static/media/Generated_POLY_T_4k_8k_I_4k_8k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_4k_8k_I_4k_8k_LSD.003f256b4ffc7a14e790.wav",
+    "static/media/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.e9026d4381d1c86b3ee4.wav",
+    "static/media/Generated_SampleRNN_T_4k_8k_I_4k_8k.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_SampleRNN_T_4k_8k_I_4k_8k.840a791768d16240e522.wav",
+    "index.html": "/BandwidthExtensionAudioSamples/index.html",
+    "static/media/readme.txt": "/BandwidthExtensionAudioSamples/static/media/readme.d8e9b33801b5a446a119.txt",
+    "main.ee343a5b.js.map": "/BandwidthExtensionAudioSamples/static/js/main.ee343a5b.js.map",
+    "787.64e35d56.chunk.js.map": "/BandwidthExtensionAudioSamples/static/js/787.64e35d56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ee343a5b.js"
+  ]
+}
