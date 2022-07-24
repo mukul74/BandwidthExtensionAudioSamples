@@ -3,7 +3,7 @@ const AudioItem = (props) => {
     return <div style={{ margin: "4rem 1rem" }}>
         <div class="well well-lg">
             <div style={{ maxWidth: '100%'}}>
-                <h4 style={{ fontSize: '10px', fontWeight: 'bold', maxWidth: '100%', wordBreak: 'break-all' }}>{title}</h4>
+                <h4 style={{ fontSize: '11px', fontWeight: 'bold', maxWidth: '100%', wordBreak: 'break-all' }}>{title}</h4>
             </div>
 
             <audio src={require(`../../media/${filePath}`)} controls style={{ width: "100%" }} />
