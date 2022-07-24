@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/BandwidthExtensionAudioSamples/static/js/main.2ab69fe1.js",
+    "main.js": "/BandwidthExtensionAudioSamples/static/js/main.bfa5ace2.js",
     "static/js/787.64e35d56.chunk.js": "/BandwidthExtensionAudioSamples/static/js/787.64e35d56.chunk.js",
     "static/media/Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD.9f218261a0f6d4a5763d.wav",
     "static/media/Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE.7f538e4334168ce71f9c.wav",
@@ -32,10 +32,10 @@
     "static/media/Generated_SampleRNN_T_4k_8k_I_4k_8k.wav": "/BandwidthExtensionAudioSamples/static/media/Generated_SampleRNN_T_4k_8k_I_4k_8k.840a791768d16240e522.wav",
     "index.html": "/BandwidthExtensionAudioSamples/index.html",
     "static/media/readme.txt": "/BandwidthExtensionAudioSamples/static/media/readme.d8e9b33801b5a446a119.txt",
-    "main.2ab69fe1.js.map": "/BandwidthExtensionAudioSamples/static/js/main.2ab69fe1.js.map",
+    "main.bfa5ace2.js.map": "/BandwidthExtensionAudioSamples/static/js/main.bfa5ace2.js.map",
     "787.64e35d56.chunk.js.map": "/BandwidthExtensionAudioSamples/static/js/787.64e35d56.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.2ab69fe1.js"
+    "static/js/main.bfa5ace2.js"
   ]
 }
