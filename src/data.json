@@ -1,153 +1,412 @@
 [
     {
-        "categoryName": "4k - 8k",
-        "tabId": "tab1",
-        "filePaths": {
-            "inputFile": "4k_8k/Input.wav",
-            "outputFile": "4k_8k/Output.wav",
-            "variants_nopoly": {
-                "title": "NO_POLY",
-                "variants": [
-                    {
-                        "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD",
-                        "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+        "categoryName": "Mixed Instruments",
+        "rootTabId": "tab-root-3",
+        "dirName": "mixed_instruments",
+        "subCategories": [
+            {
+                "categoryName": "4k - 8k",
+                "tabId": "tab11",
+                "filePaths": {
+                    "inputFile": "4k_8k/input.wav",
+                    "outputFile": "4k_8k/target.wav",
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD",
+                                "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE",
+                                "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
+                            }
+                        ]
                     },
-                    {
-                        "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE",
-                        "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
-                    }
-                ]
-            },
-            "variants_poly": {
-                "title": "POLY",
-                "variants": [
-                    {
-                        "title": "Generated_POLY_T_4k_8k_I_4k_8k_LSD",
-                        "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_4k_8k_LSD",
+                                "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_4k_8k_WMSE",
+                                "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
+                            }
+                        ]
                     },
-                    {
-                        "title": "Generated_POLY_T_4k_8k_I_4k_8k_WMSE",
-                        "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
-                    }
-                ]
-            },
-            "variants": [
-                {
-                    "title": "Generated_Base_T_4k_8k_I_4k_8k",
-                    "filePath": "4k_8k/Generated_Base_T_4k_8k_I_4k_8k.wav"
-                },
-                {
-                    "title": "Generated_SampleRNN_T_4k_8k_I_4k_8k",
-                    "filePath": "4k_8k/Generated_SampleRNN_T_4k_8k_I_4k_8k.wav"
+                    "variants": [
+                        {
+                            "title": "Generated_Base_T_4k_8k_I_4k_8k",
+                            "filePath": "4k_8k/Generated_Base_T_4k_8k_I_4k_8k.wav"
+                        },
+                        {
+                            "title": "Generated_SampleRNN_T_4k_8k_I_4k_8k",
+                            "filePath": "4k_8k/Generated_SampleRNN_T_4k_8k_I_4k_8k.wav"
+                        }
+                    ]
                 }
-            ]
-        }
+            },
+            {
+                "categoryName": "8k - 16k",
+                "tabId": "tab12",
+                "filePaths": {
+                    "inputFile": "8k_16k/input.wav",
+                    "outputFile": "8k_16k/target.wav",
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD",
+                                "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE",
+                                "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_8k_16k_I_8k_16k_LSD",
+                                "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_8k_16k_I_8k_16k_WMSE",
+                                "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants": [
+                        {
+                            "title": "Generated_Base_T_8k_16k_I_8k_16k",
+                            "filePath": "8k_16k/Generated_Base_T_8k_16k_I_8k_16k.wav"
+                        }
+                    ]
+                }
+            },
+            {
+                "categoryName": "16k - 32k",
+                "tabId": "tab13",
+                "filePaths": {
+                    "inputFile": "16k_32k/input.wav",
+                    "outputFile": null  ,
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NO_POLY_T_16k_32k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_NO_POLY_T_16k_32k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_16k_32k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_NO_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_16k_32k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_16k_32k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants": []
+                }
+            }
+        ]
     },
     {
-        "categoryName": "8k - 16k",
-        "tabId": "tab2",
-        "filePaths": {
-            "inputFile": "8k_16k/input_8k.wav",
-            "outputFile": "8k_16k/target_16k.wav",
-            "variants_nopoly": {
-                "title": "NO_POLY",
-                "variants": [
-                    {
-                        "title": "Generated_NO_POLY_T_4k_8k_I_8k_16k_LSD",
-                        "filePath": "8k_16k/Generated_NO_POLY_T_4k_8k_I_8k_16k_LSD.wav"
+        "categoryName": "Singing Test Data Male",
+        "rootTabId": "tab-root-3",
+        "dirName": "Singing_test_data_male",
+        "subCategories": [
+            {
+                "categoryName": "4k - 8k",
+                "tabId": "tab21",
+                "filePaths": {
+                    "inputFile": "4k_8k/input.wav",
+                    "outputFile": "4k_8k/target.wav",
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE",
+                                "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD",
+                                "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                            }
+                        ]
                     },
-                    {
-                        "title": "Generated_NO_POLY_T_4k_8k_I_8k_16k_WMSE",
-                        "filePath": "8k_16k/Generated_NO_POLY_T_4k_8k_I_8k_16k_WMSE.wav"
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_4k_8k_LSD",
+                                "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_4k_8k_WMSE",
+                                "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
+                            }
+                        ]
                     },
-                    {
-                        "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD",
-                        "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD.wav"
-                    },
-                    {
-                        "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE",
-                        "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
-                    }
-                ]
-            },
-            "variants_poly": {
-                "title": "POLY",
-                "variants": [
-                    {
-                        "title": "Generated_POLY_T_4k_8k_I_8k_16k_LSD",
-                        "filePath": "8k_16k/Generated_POLY_T_4k_8k_I_8k_16k_LSD.wav"
-                    },
-                    {
-                        "title": "Generated_POLY_T_4k_8k_I_8k_16k_WMSE",
-                        "filePath": "8k_16k/Generated_POLY_T_4k_8k_I_8k_16k_WMSE.wav"
-                    },
-                    {
-                        "title": "Generated_POLY_T_8k_16k_I_8k_16k_LSD",
-                        "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_LSD.wav"
-                    },
-                    {
-                        "title": "Generated_POLY_T_8k_16k_I_8k_16k_WMSE",
-                        "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
-                    }
-                ]
-            },
-            "variants": [
-                {
-                    "title": "Generated_BASE_T_8k_16k_I_8k_16",
-                    "filePath": "8k_16k/Generated_BASE_T_8k_16k_I_8k_16.wav"
+                    "variants": [
+                        {
+                            "title": "Generated_Base_T_4k_8k_I_4k_8k",
+                            "filePath": "4k_8k/Generated_Base_T_4k_8k_I_4k_8k.wav"
+                        },
+                        {
+                            "title": "Generated_SampleRNN_T_4k_8k_I_4k_8k",
+                            "filePath": "4k_8k/Generated_SampleRNN_T_4k_8k_I_4k_8k.wav"
+                        }
+                    ]
                 }
-            ]
-        }
+            },
+            {
+                "categoryName": "8k - 16k",
+                "tabId": "tab22",
+                "filePaths": {
+                    "inputFile": "8k_16k/input.wav",
+                    "outputFile": "8k_16k/target.wav",
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD",
+                                "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE",
+                                "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_8k_16k_I_8k_16k_LSD",
+                                "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_8k_16k_I_8k_16k_WMSE",
+                                "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants": [
+                        {
+                            "title": "Generated_Base_T_8k_16k_I_8k_16k",
+                            "filePath": "8k_16k/Generated_Base_T_8k_16k_I_8k_16k.wav"
+                        }
+                    ]
+                }
+            },
+            {
+                "categoryName": "16k - 32k",
+                "tabId": "tab23",
+                "filePaths": {
+                    "inputFile": "16k_32k/input.wav",
+                    "outputFile": "16k_32k/target.wav",
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NO_POLY_T_4k_8k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_NO_POLY_T_4k_8k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_4k_8k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_NO_POLY_T_4k_8k_I_16k_32k_WMSE.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_16k_32k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_NO_POLY_T_16k_32k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_16k_32k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_NO_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_WMSE.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_16k_32k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_16k_32k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants": []
+                }
+            }
+        ]
     },
     {
-        "categoryName": "16k - 32k",
-        "tabId": "tab3",
-        "filePaths": {
-            "inputFile": "16k_32k/Input.wav",
-            "outputFile": "16k_32k/Target.wav",
-            "variants_nopoly": {
-                "title": "NO_POLY",
-                "variants": [
-                    {
-                        "title": "Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD",
-                        "filePath": "16k_32k/Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD.wav"
+        "categoryName": "Singing Test Data Female",
+        "rootTabId": "tab-root-1",
+        "dirName": "Singing_test_data_female",
+        "subCategories": [
+            {
+                "categoryName": "4k - 8k",
+                "tabId": "tab31",
+                "filePaths": {
+                    "inputFile": "4k_8k/Input.wav",
+                    "outputFile": "4k_8k/target.wav",
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD",
+                                "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE",
+                                "filePath": "4k_8k/Generated_NO_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
+                            }
+                        ]
                     },
-                    {
-                        "title": "Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE",
-                        "filePath": "16k_32k/Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE.wav"
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_4k_8k_LSD",
+                                "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_4k_8k_WMSE",
+                                "filePath": "4k_8k/Generated_POLY_T_4k_8k_I_4k_8k_WMSE.wav"
+                            }
+                        ]
                     },
-                    {
-                        "title": "Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD",
-                        "filePath": "16k_32k/Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD.wav"
-                    },
-                    {
-                        "title": "Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE",
-                        "filePath": "16k_32k/Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
-                    }
-                ]
+                    "variants": [
+                        {
+                            "title": "Generated_Base_T_4k_8k_I_4k_8k",
+                            "filePath": "4k_8k/Generated_Base_T_4k_8k_I_4k_8k.wav"
+                        },
+                        {
+                            "title": "Generated_SampleRNN_T_4k_8k_I_4k_8k",
+                            "filePath": "4k_8k/Generated_SampleRNN_T_4k_8k_I_4k_8k.wav"
+                        }
+                    ]
+                }
             },
-            "variants_poly": {
-                "title": "POLY",
-                "variants": [
-                    {
-                        "title": "Generated_POLY_T_4k_8k_I_16k_32k_LSD",
-                        "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_LSD.wav"
+            {
+                "categoryName": "8k - 16k",
+                "tabId": "tab32",
+                "filePaths": {
+                    "inputFile": "8k_16k/input.wav",
+                    "outputFile": "8k_16k/target.wav",
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD",
+                                "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE",
+                                "filePath": "8k_16k/Generated_NO_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
+                            }
+                        ]
                     },
-                    {
-                        "title": "Generated_POLY_T_4k_8k_I_16k_32k_WMSE",
-                        "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_WMSE.wav"
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_8k_16k_I_8k_16k_LSD",
+                                "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_8k_16k_I_8k_16k_WMSE",
+                                "filePath": "8k_16k/Generated_POLY_T_8k_16k_I_8k_16k_WMSE.wav"
+                            }
+                        ]
                     },
-                    {
-                        "title": "Generated_POLY_T_16k_32k_I_16k_32k_LSD",
-                        "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_LSD.wav"
-                    },
-                    {
-                        "title": "Generated_POLY_T_16k_32k_I_16k_32k_WMSE",
-                        "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
-                    }
-                ]
+                    "variants": [
+                        {
+                            "title": "Generated_BASE_T_8k_16k_I_8k_16",
+                            "filePath": "8k_16k/Generated_BASE_T_8k_16k_I_8k_16.wav"
+                        }
+                    ]
+                }
             },
-            "variants": []
-        }
+            {
+                "categoryName": "16k - 32k",
+                "tabId": "tab33",
+                "filePaths": {
+                    "inputFile": "16k_32k/Input.wav",
+                    "outputFile": "16k_32k/Target.wav",
+                    "variants_nopoly": {
+                        "title": "NO_POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_NON_POLY_T_4k_8k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE",
+                                "filePath": "16k_32k/Generated_NON_POLY_T_4k_8k_I_16k_32K_WMSE.wav"
+                            },
+                            {
+                                "title": "Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_NON_POLY_T_16k_32k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_NON_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants_poly": {
+                        "title": "POLY",
+                        "audios": [
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_4k_8k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_POLY_T_4k_8k_I_16k_32k_WMSE.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_16k_32k_I_16k_32k_LSD",
+                                "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_LSD.wav"
+                            },
+                            {
+                                "title": "Generated_POLY_T_16k_32k_I_16k_32k_WMSE",
+                                "filePath": "16k_32k/Generated_POLY_T_16k_32k_I_16k_32k_WMSE.wav"
+                            }
+                        ]
+                    },
+                    "variants": []
+                }
+            }
+        ]
     }
 ]

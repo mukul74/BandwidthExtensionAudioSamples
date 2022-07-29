@@ -1,7 +1,7 @@
 import AudioItem from "../audioItem/AudioItem";
 const AudioList = (props) => {
-    const { details } = props;
-    console.log(details)
+    const { details, dirName } = props;
+
     const inputFile = details?.filePaths?.inputFile;
     const outputFile = details?.filePaths?.outputFile;
 
@@ -12,12 +12,12 @@ const AudioList = (props) => {
         <div className="container-fluid">
             <h1>{details?.categoryName}</h1>
             <div className="row">
-                <div className="col-sm-3 col-md-4" >
-                    <AudioItem filePath={inputFile} title="Input Audio" />
-                </div>
-                <div className="col-md-offset-4 col-md-4" >
-                    <AudioItem filePath={outputFile} title="Target Audio" />
-                </div>
+                {inputFile && <div className="col-sm-3 col-md-4" >
+                    <AudioItem dir={dirName} filePath={inputFile} title="Input Audio" />
+                </div>}
+                {outputFile && <div className="col-md-offset-4 col-md-4" >
+                    <AudioItem dir={dirName} filePath={outputFile} title="Target Audio" />
+                </div>}
             </div>
             {details?.filePaths?.variants.length > 0 &&
                 <div>
@@ -25,7 +25,7 @@ const AudioList = (props) => {
                     <div className="row">
                         {details?.filePaths.variants.map(vari => {
                             return (<div className="col-sm-4 col-md-3" >
-                                <AudioItem title={vari.title} filePath={vari.filePath} />
+                                <AudioItem dir={dirName} title={vari.title} filePath={vari.filePath} />
                             </div>)
                         }
                         )}
@@ -34,13 +34,13 @@ const AudioList = (props) => {
             }
 
             {
-                noPoly && (
+                noPoly && noPoly?.audios.length > 0 && (
                     <div>
                         <h2>{noPoly.title}</h2>
                         <div className="row">
-                            {noPoly?.variants.map(vari => {
+                            {noPoly?.audios.map(vari => {
                                 return (<div className="col-sm-4 col-md-3" >
-                                    <AudioItem title={vari.title} filePath={vari.filePath} />
+                                    <AudioItem dir={dirName} title={vari.title} filePath={vari.filePath} />
                                 </div>)
                             })}
                         </div>
@@ -48,19 +48,20 @@ const AudioList = (props) => {
                 )
             }
             {
-                poly && (
+                poly && poly?.audios.length > 0  && (
                     <div>
                         <h2>{poly.title}</h2>
                         <div className="row">
-                            {poly?.variants.map(vari => {
+                            {poly?.audios.map(vari => {
                                 return (<div className="col-sm-4 col-md-3" >
-                                    <AudioItem title={vari.title} filePath={vari.filePath} />
+                                    <AudioItem dir={dirName} title={vari.title} filePath={vari.filePath} />
                                 </div>)
                             })}
                         </div>
                     </div>
                 )
             }
+     
 
         </div>
     )
