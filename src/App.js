@@ -4,7 +4,7 @@ import AudioList from './components/audioList/AudioList'
 function App() {
   return (
     <div className="App">
-      <h1 className="page-header" style={{ textAlign: 'center', margin: '2rem auto' }} >Bandwidth Extension
+      <h1 className="page-header" style={{ fontWeight: 'bolder', borderBottom: 0, textAlign: 'center', margin: '2rem auto' }} >Bandwidth Extension
       </h1>
       <div className='container-fluid'>
         <ul class="nav nav-tabs">
