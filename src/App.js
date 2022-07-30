@@ -1,10 +1,7 @@
 import DATA from './data.json';
 import AudioList from './components/audioList/AudioList'
 
-console.log(DATA)
-
 function App() {
-
   return (
     <div className="App">
       <h1 className="page-header" style={{ textAlign: 'center', margin: '2rem auto' }} >Bandwidth Extension

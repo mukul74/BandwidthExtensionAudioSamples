@@ -10,7 +10,6 @@ const AudioList = (props) => {
 
     return (
         <div className="container-fluid">
-            <h1>{details?.categoryName}</h1>
             <div className="row">
                 {inputFile && <div className="col-sm-3 col-md-4" >
                     <AudioItem dir={dirName} filePath={inputFile} title="Input Audio" />
@@ -21,7 +20,7 @@ const AudioList = (props) => {
             </div>
             {details?.filePaths?.variants.length > 0 &&
                 <div>
-                    <h2>Generated Variants</h2>
+                    <h3 style={{ fontWeight: 'bold' }}>GENERATED VARIANTS</h3>
                     <div className="row">
                         {details?.filePaths.variants.map(vari => {
                             return (<div className="col-sm-4 col-md-3" >
@@ -36,7 +35,7 @@ const AudioList = (props) => {
             {
                 noPoly && noPoly?.audios.length > 0 && (
                     <div>
-                        <h2>{noPoly.title}</h2>
+                        <h4 style={{ fontWeight: 'bold' }}>{noPoly.title}</h4>
                         <div className="row">
                             {noPoly?.audios.map(vari => {
                                 return (<div className="col-sm-4 col-md-3" >
@@ -50,7 +49,7 @@ const AudioList = (props) => {
             {
                 poly && poly?.audios.length > 0  && (
                     <div>
-                        <h2>{poly.title}</h2>
+                        <h4 style={{ fontWeight: 'bold' }}>{poly.title}</h4>
                         <div className="row">
                             {poly?.audios.map(vari => {
                                 return (<div className="col-sm-4 col-md-3" >
