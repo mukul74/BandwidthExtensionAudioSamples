@@ -1,7 +1,7 @@
 [
     {
         "categoryName": "Different Genres",
-        "rootTabId": "tab-root-3",
+        "rootTabId": "tab-root-1",
         "dirName": "Different_Genres",
         "subCategories": [
             {
@@ -167,7 +167,7 @@
     },
     {
         "categoryName": "Singing Test Data Male",
-        "rootTabId": "tab-root-3",
+        "rootTabId": "tab-root-2",
         "dirName": "Singing_test_data_male",
         "subCategories": [
             {
@@ -309,7 +309,7 @@
     },
     {
         "categoryName": "Singing Test Data Female",
-        "rootTabId": "tab-root-1",
+        "rootTabId": "tab-root-3",
         "dirName": "Singing_test_data_female",
         "subCategories": [
             {
